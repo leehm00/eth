@@ -1,0 +1,74 @@
+=============== Aug 6, 2021 (CST) ===============
+09:34:28.855760 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:34:28.860807 db@open opening
+09:34:28.864455 version@stat F·[] S·0B[] Sc·[]
+09:34:28.868517 db@janitor F·2 G·0
+09:34:28.868751 db@open done T·7.892248ms
+09:41:25.763102 db@close closing
+09:41:25.763233 db@close done T·130.095µs
+=============== Aug 10, 2021 (CST) ===============
+21:12:19.047342 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:12:19.049147 version@stat F·[] S·0B[] Sc·[]
+21:12:19.049221 db@open opening
+21:12:19.049324 journal@recovery F·1
+21:12:19.053238 journal@recovery recovering @1
+21:12:19.055042 memdb@flush created L0@2 N·2 S·176B "loc..seq,v2":"version,v1"
+21:12:19.056617 version@stat F·[1] S·176B[176B] Sc·[0.25]
+21:12:19.069902 db@janitor F·3 G·0
+21:12:19.069973 db@open done T·20.740478ms
+21:46:35.955876 db@close closing
+21:46:35.955960 db@close done T·84.03µs
+=============== Aug 10, 2021 (CST) ===============
+21:48:32.676489 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:48:32.677985 version@stat F·[1] S·176B[176B] Sc·[0.25]
+21:48:32.678043 db@open opening
+21:48:32.678125 journal@recovery F·1
+21:48:32.684385 journal@recovery recovering @3
+21:48:32.689063 memdb@flush created L0@5 N·1 S·159B "loc..seq,v4":"loc..seq,v4"
+21:48:32.691365 version@stat F·[2] S·335B[335B] Sc·[0.50]
+21:48:32.695692 db@janitor F·4 G·0
+21:48:32.698221 db@open done T·17.714012ms
+21:54:51.939220 db@close closing
+21:54:51.939356 db@close done T·134.356µs
+=============== Aug 10, 2021 (CST) ===============
+22:05:40.100520 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:05:40.100982 version@stat F·[2] S·335B[335B] Sc·[0.50]
+22:05:40.101028 db@open opening
+22:05:40.101106 journal@recovery F·1
+22:05:40.104671 journal@recovery recovering @6
+22:05:40.106096 memdb@flush created L0@8 N·1 S·159B "loc..seq,v6":"loc..seq,v6"
+22:05:40.107803 version@stat F·[3] S·494B[494B] Sc·[0.75]
+22:05:40.111379 db@janitor F·5 G·0
+22:05:40.111441 db@open done T·10.403301ms
+22:11:47.866701 db@close closing
+22:11:47.866771 db@close done T·69.441µs
+=============== Aug 10, 2021 (CST) ===============
+22:11:54.970844 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:11:54.971349 version@stat F·[3] S·494B[494B] Sc·[0.75]
+22:11:54.971651 db@open opening
+22:11:54.971822 journal@recovery F·1
+22:11:54.973852 journal@recovery recovering @9
+22:11:54.976409 memdb@flush created L0@11 N·1 S·159B "loc..seq,v8":"loc..seq,v8"
+22:11:54.978101 version@stat F·[4] S·653B[653B] Sc·[1.00]
+22:11:54.980970 db@janitor F·6 G·0
+22:11:54.980995 db@open done T·9.329136ms
+22:11:54.981280 table@compaction L0·4 -> L1·0 S·653B Q·9
+22:11:54.986459 table@build created L1@14 N·2 S·176B "loc..seq,v8":"version,v1"
+22:11:54.986559 version@stat F·[0 1] S·176B[0B 176B] Sc·[0.00 0.00]
+22:11:54.989480 table@compaction committed F-3 S-477B Ke·0 D·3 T·8.117627ms
+22:11:54.989729 table@remove removed @8
+22:11:54.989784 table@remove removed @5
+22:11:54.989829 table@remove removed @2
+22:13:42.568813 db@close closing
+22:13:42.568939 db@close done T·125.648µs
+=============== Aug 10, 2021 (CST) ===============
+22:14:14.528259 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:14:14.528443 version@stat F·[0 1] S·176B[0B 176B] Sc·[0.00 0.00]
+22:14:14.528455 db@open opening
+22:14:14.528499 journal@recovery F·1
+22:14:14.529676 journal@recovery recovering @12
+22:14:14.530723 memdb@flush created L0@15 N·1 S·159B "loc..seq,v10":"loc..seq,v10"
+22:14:14.531802 version@stat F·[1 1] S·335B[159B 176B] Sc·[0.25 0.00]
+22:14:14.534675 db@janitor F·5 G·1
+22:14:14.534709 db@janitor removing table-11
+22:14:14.534801 db@open done T·6.328299ms
