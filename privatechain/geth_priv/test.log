@@ -1,0 +1,207 @@
+INFO [08-18|23:45:27.020] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [08-18|23:45:27.021] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [08-18|23:45:27.022] Set global gas cap                       cap=50,000,000
+INFO [08-18|23:45:27.022] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [08-18|23:45:27.022] Allocated cache and file handles         database=/home/leehm/eth/privatechain/data/sde/geth_priv/data/geth/chaindata cache=512.00MiB handles=524,288
+INFO [08-18|23:45:27.040] Opened ancient database                  database=/home/leehm/eth/privatechain/data/sde/geth_priv/data/geth/chaindata/ancient readonly=false
+INFO [08-18|23:45:27.042] Initialised chain configuration          config="{ChainID: 12345 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: <nil>, Muir Glacier: <nil>, Berlin: <nil>, London: <nil>, Engine: unknown}"
+INFO [08-18|23:45:27.043] Disk storage enabled for ethash caches   dir=/home/leehm/eth/privatechain/data/sde/geth_priv/data/geth/ethash count=3
+INFO [08-18|23:45:27.043] Disk storage enabled for ethash DAGs     dir=/home/leehm/.ethash count=2
+INFO [08-18|23:45:27.043] Initialising Ethereum protocol           network=12345 dbversion=8
+INFO [08-18|23:45:27.047] Loaded most recent local header          number=13 hash=a7c87f..d21bd6 td=1,709,184 age=1w1d1h
+INFO [08-18|23:45:27.048] Loaded most recent local full block      number=13 hash=a7c87f..d21bd6 td=1,709,184 age=1w1d1h
+INFO [08-18|23:45:27.048] Loaded most recent local fast block      number=13 hash=a7c87f..d21bd6 td=1,709,184 age=1w1d1h
+INFO [08-18|23:45:27.050] Loaded local transaction journal         transactions=0 dropped=0
+INFO [08-18|23:45:27.050] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [08-18|23:45:27.050] Switch sync mode from fast sync to full sync 
+INFO [08-18|23:45:27.051] Gasprice oracle is ignoring threshold set threshold=2
+INFO [08-18|23:45:27.054] Starting peer-to-peer node               instance=Geth/gethPriv/v1.10.6-stable-576681f2/linux-amd64/go1.16.4
+INFO [08-18|23:45:27.074] IPC endpoint opened                      url=/home/leehm/eth/privatechain/data/sde/geth_priv/data/geth.ipc
+INFO [08-18|23:45:27.075] New local node record                    seq=9 id=7084e3e75a41d023 ip=127.0.0.1 udp=0 tcp=30305
+INFO [08-18|23:45:27.075] Started P2P networking                   self="enode://fa496690a3bee2ac39367ae7f270a41b1f702416d5f22b5d93827aecbf0c5891373b6d40a9cd2901069c5903a17ddb44093a684906609e592647a5d7b4d91c91@127.0.0.1:30305?discport=0"
+INFO [08-18|23:45:27.131] Etherbase automatically configured       address=0xD5E06bC0F8f0866b7505a6Afc6B778956108e384
+INFO [08-18|23:45:44.868] IPC endpoint closed                      url=/home/leehm/eth/privatechain/data/sde/geth_priv/data/geth.ipc
+INFO [08-18|23:45:44.868] Ethereum protocol stopped 
+INFO [08-18|23:45:44.868] Transaction pool stopped 
+INFO [08-18|23:45:44.868] Writing cached state to disk             block=13 hash=a7c87f..d21bd6 root=d0b719..1ceb03
+INFO [08-18|23:45:44.868] Persisted trie from memory database      nodes=0 size=0.00B time="4.759µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [08-18|23:45:44.869] Writing cached state to disk             block=12 hash=821192..b87f18 root=05ddfa..9cab21
+INFO [08-18|23:45:44.869] Persisted trie from memory database      nodes=0 size=0.00B time=451ns     gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [08-18|23:45:44.869] Writing snapshot state to disk           root=cde97d..ad1ab4
+INFO [08-18|23:45:44.869] Persisted trie from memory database      nodes=0 size=0.00B time=401ns     gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [08-18|23:45:44.869] Writing clean trie cache to disk         path=/home/leehm/eth/privatechain/data/sde/geth_priv/data/geth/triecache threads=4
+INFO [08-18|23:45:44.870] Persisted the clean trie cache           path=/home/leehm/eth/privatechain/data/sde/geth_priv/data/geth/triecache elapsed=1.473ms
+INFO [08-18|23:45:44.870] Blockchain stopped 
+INFO [08-18|23:46:47.084] Starting Geth in ephemeral dev mode... 
+INFO [08-18|23:46:47.086] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [08-18|23:46:47.086] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [08-18|23:46:47.087] Set global gas cap                       cap=50,000,000
+INFO [08-18|23:46:47.278] Using developer account                  address=0xC2e2b2Fa8441099Dc6F25dDe088ab2dA310864fB
+INFO [08-18|23:46:47.278] Allocated cache and file handles         database=/home/leehm/eth/privatechain/data/sde/geth_priv/testNet/geth/chaindata cache=512.00MiB handles=524,288
+INFO [08-18|23:46:47.294] Opened ancient database                  database=/home/leehm/eth/privatechain/data/sde/geth_priv/testNet/geth/chaindata/ancient readonly=false
+INFO [08-18|23:46:47.294] Freezer shutting down 
+INFO [08-18|23:46:47.294] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [08-18|23:46:47.294] Allocated cache and file handles         database=/home/leehm/eth/privatechain/data/sde/geth_priv/testNet/geth/chaindata cache=512.00MiB handles=524,288
+INFO [08-18|23:46:47.608] Opened ancient database                  database=/home/leehm/eth/privatechain/data/sde/geth_priv/testNet/geth/chaindata/ancient readonly=false
+INFO [08-18|23:46:47.609] Writing custom genesis block 
+INFO [08-18|23:46:47.610] Persisted trie from memory database      nodes=14 size=1.97KiB time="235.998µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [08-18|23:46:47.610] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 0, Engine: clique}"
+INFO [08-18|23:46:47.611] Initialising Ethereum protocol           network=1337 dbversion=<nil>
+INFO [08-18|23:46:47.611] Loaded most recent local header          number=0 hash=80542e..3489ac td=1 age=52y4mo2w
+INFO [08-18|23:46:47.611] Loaded most recent local full block      number=0 hash=80542e..3489ac td=1 age=52y4mo2w
+INFO [08-18|23:46:47.611] Loaded most recent local fast block      number=0 hash=80542e..3489ac td=1 age=52y4mo2w
+WARN [08-18|23:46:47.612] Failed to load snapshot, regenerating    err="missing or corrupted snapshot"
+INFO [08-18|23:46:47.612] Rebuilding state snapshot 
+INFO [08-18|23:46:47.612] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-18|23:46:47.612] Resuming state snapshot generation       root=4c40dd..036f19 accounts=0 slots=0 storage=0.00B elapsed="437.37µs"
+INFO [08-18|23:46:47.613] Gasprice oracle is ignoring threshold set threshold=2
+WARN [08-18|23:46:47.613] Error reading unclean shutdown markers   error="leveldb: not found"
+INFO [08-18|23:46:47.614] Generated state snapshot                 accounts=10 slots=0 storage=412.00B elapsed=1.761ms
+INFO [08-18|23:46:47.614] Starting peer-to-peer node               instance=Geth/v1.10.6-stable-576681f2/linux-amd64/go1.16.4
+WARN [08-18|23:46:47.614] P2P server will be useless, neither dialing nor listening 
+INFO [08-18|23:46:47.614] Stored checkpoint snapshot to disk       number=0 hash=80542e..3489ac
+INFO [08-18|23:46:47.634] New local node record                    seq=1 id=2933c95feb9ae1fc ip=127.0.0.1 udp=0 tcp=0
+INFO [08-18|23:46:47.634] Started P2P networking                   self=enode://67c73f71f072e600c6a47cbca4f9c82202810a828d972b957382fd26fc749169128828591ab4ccfa54ab2174b8d666b3c05a50e39fb9e568ef748a31bdda2854@127.0.0.1:0
+INFO [08-18|23:46:47.635] IPC endpoint opened                      url=/home/leehm/eth/privatechain/data/sde/geth_priv/testNet/geth.ipc
+INFO [08-18|23:46:47.635] Transaction pool price threshold updated price=1,000,000,000
+INFO [08-18|23:46:47.635] Transaction pool price threshold updated price=1
+INFO [08-18|23:46:47.635] Etherbase automatically configured       address=0xC2e2b2Fa8441099Dc6F25dDe088ab2dA310864fB
+INFO [08-18|23:46:47.635] Commit new mining work                   number=1 sealhash=816715..c75d9f uncles=0 txs=0 gas=0 fees=0 elapsed="152.8µs"
+INFO [08-18|23:46:47.635] Sealing paused, waiting for transactions 
+INFO [08-19|00:27:05.207] IPC endpoint closed                      url=/home/leehm/eth/privatechain/data/sde/geth_priv/testNet/geth.ipc
+INFO [08-19|00:27:05.208] Got interrupt, shutting down... 
+INFO [08-19|00:27:05.208] Ethereum protocol stopped 
+INFO [08-19|00:27:05.208] Transaction pool stopped 
+INFO [08-19|09:55:24.860] Starting Geth in ephemeral dev mode... 
+INFO [08-19|09:55:24.862] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [08-19|09:55:24.864] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [08-19|09:55:24.868] Set global gas cap                       cap=50,000,000
+INFO [08-19|09:55:24.932] Using developer account                  address=0xC2e2b2Fa8441099Dc6F25dDe088ab2dA310864fB
+INFO [08-19|09:55:24.932] Allocated cache and file handles         database=/home/leehm/eth/privatechain/data/sde/geth_priv/testNet/geth/chaindata cache=512.00MiB handles=524,288
+INFO [08-19|09:55:24.951] Opened ancient database                  database=/home/leehm/eth/privatechain/data/sde/geth_priv/testNet/geth/chaindata/ancient readonly=false
+INFO [08-19|09:55:24.951] Freezer shutting down 
+INFO [08-19|09:55:24.951] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [08-19|09:55:24.951] Allocated cache and file handles         database=/home/leehm/eth/privatechain/data/sde/geth_priv/testNet/geth/chaindata cache=512.00MiB handles=524,288
+INFO [08-19|09:55:26.045] Opened ancient database                  database=/home/leehm/eth/privatechain/data/sde/geth_priv/testNet/geth/chaindata/ancient readonly=false
+INFO [08-19|09:55:26.047] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 0, Engine: clique}"
+INFO [08-19|09:55:26.048] Initialising Ethereum protocol           network=1337 dbversion=8
+INFO [08-19|09:55:26.050] Loaded most recent local header          number=0 hash=80542e..3489ac td=1 age=52y4mo2w
+INFO [08-19|09:55:26.051] Loaded most recent local full block      number=0 hash=80542e..3489ac td=1 age=52y4mo2w
+INFO [08-19|09:55:26.051] Loaded most recent local fast block      number=0 hash=80542e..3489ac td=1 age=52y4mo2w
+WARN [08-19|09:55:26.051] Loaded snapshot journal                  diskroot=4c40dd..036f19 diffs=missing
+INFO [08-19|09:55:26.056] Loaded local transaction journal         transactions=0 dropped=0
+INFO [08-19|09:55:26.057] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-19|09:55:26.058] Gasprice oracle is ignoring threshold set threshold=2
+WARN [08-19|09:55:26.060] Unclean shutdown detected                booted=2021-08-18T23:46:47+0800 age=10h8m39s
+INFO [08-19|09:55:26.060] Starting peer-to-peer node               instance=Geth/v1.10.6-stable-576681f2/linux-amd64/go1.16.4
+WARN [08-19|09:55:26.060] P2P server will be useless, neither dialing nor listening 
+INFO [08-19|09:55:26.080] New local node record                    seq=2 id=2933c95feb9ae1fc ip=127.0.0.1 udp=0 tcp=0
+INFO [08-19|09:55:26.080] Started P2P networking                   self=enode://67c73f71f072e600c6a47cbca4f9c82202810a828d972b957382fd26fc749169128828591ab4ccfa54ab2174b8d666b3c05a50e39fb9e568ef748a31bdda2854@127.0.0.1:0
+INFO [08-19|09:55:26.081] IPC endpoint opened                      url=/home/leehm/eth/privatechain/data/sde/geth_priv/testNet/geth.ipc
+INFO [08-19|09:55:26.081] Transaction pool price threshold updated price=1,000,000,000
+INFO [08-19|09:55:26.081] Transaction pool price threshold updated price=1
+INFO [08-19|09:55:26.081] Etherbase automatically configured       address=0xC2e2b2Fa8441099Dc6F25dDe088ab2dA310864fB
+INFO [08-19|09:55:26.082] Commit new mining work                   number=1 sealhash=0b10ab..6000fb uncles=0 txs=0 gas=0 fees=0 elapsed="297.248µs"
+INFO [08-19|09:55:26.082] Sealing paused, waiting for transactions 
+INFO [08-19|09:56:40.880] Your new key was generated               address=0x18506E7B32ded8F794C1df69939a5A48F066908B
+WARN [08-19|09:56:40.881] Please backup your key file!             path=/home/leehm/eth/privatechain/data/sde/geth_priv/testNet/keystore/UTC--2021-08-19T01-56-40.766140841Z--18506e7b32ded8f794c1df69939a5a48f066908b
+WARN [08-19|09:56:40.881] Please remember your password! 
+INFO [08-19|09:58:54.677] Setting new local account                address=0xC2e2b2Fa8441099Dc6F25dDe088ab2dA310864fB
+INFO [08-19|09:58:54.678] Submitted transaction                    hash=0x9ed0001a7aaee8c5ab308c64242da0f1afd993f9f0227aba8a7d3fcc9781184d from=0xC2e2b2Fa8441099Dc6F25dDe088ab2dA310864fB nonce=0 recipient=0x18506E7B32ded8F794C1df69939a5A48F066908B value=99,000,000,000,000,000,000
+INFO [08-19|09:58:54.678] Commit new mining work                   number=1 sealhash=49f094..6b59d7 uncles=0 txs=1 gas=21000 fees=2.1e-14 elapsed="598.397µs"
+INFO [08-19|09:58:54.679] Successfully sealed new block            number=1 sealhash=49f094..6b59d7 hash=f3f5d6..8c64ce elapsed="906.253µs"
+INFO [08-19|09:58:54.679] 🔨 mined potential block                  number=1 hash=f3f5d6..8c64ce
+INFO [08-19|09:58:54.679] Commit new mining work                   number=2 sealhash=bfb394..d5eef1 uncles=0 txs=0 gas=0     fees=0       elapsed="199.423µs"
+INFO [08-19|09:58:54.680] Sealing paused, waiting for transactions 
+INFO [08-19|10:55:26.053] Writing clean trie cache to disk         path=/home/leehm/eth/privatechain/data/sde/geth_priv/testNet/geth/triecache threads=1
+INFO [08-19|10:55:26.056] Persisted the clean trie cache           path=/home/leehm/eth/privatechain/data/sde/geth_priv/testNet/geth/triecache elapsed=3.141ms
+INFO [08-19|10:55:26.061] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-19|11:03:45.509] IPC endpoint closed                      url=/home/leehm/eth/privatechain/data/sde/geth_priv/testNet/geth.ipc
+INFO [08-19|11:03:45.509] Ethereum protocol stopped 
+INFO [08-19|11:03:45.509] Transaction pool stopped 
+INFO [08-19|11:03:45.511] Writing cached state to disk             block=1 hash=f3f5d6..8c64ce root=356a24..7741ec
+INFO [08-19|11:03:45.511] Persisted trie from memory database      nodes=5 size=839.00B time="110.29µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [08-19|11:03:45.511] Writing snapshot state to disk           root=4c40dd..036f19
+INFO [08-19|11:03:45.511] Persisted trie from memory database      nodes=0 size=0.00B   time=622ns      gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [08-19|11:03:45.511] Writing clean trie cache to disk         path=/home/leehm/eth/privatechain/data/sde/geth_priv/testNet/geth/triecache threads=4
+INFO [08-19|11:03:45.512] Persisted the clean trie cache           path=/home/leehm/eth/privatechain/data/sde/geth_priv/testNet/geth/triecache elapsed="738.606µs"
+INFO [08-19|11:03:45.512] Blockchain stopped 
+INFO [08-19|19:43:40.656] Starting Geth in ephemeral dev mode... 
+INFO [08-19|19:43:40.660] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [08-19|19:43:40.660] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [08-19|19:43:40.663] Set global gas cap                       cap=50,000,000
+INFO [08-19|19:43:40.737] Using developer account                  address=0xC2e2b2Fa8441099Dc6F25dDe088ab2dA310864fB
+INFO [08-19|19:43:40.738] Allocated cache and file handles         database=/home/leehm/eth/privatechain/geth_priv/testNet/geth/chaindata cache=512.00MiB handles=524,288
+INFO [08-19|19:43:40.754] Opened ancient database                  database=/home/leehm/eth/privatechain/geth_priv/testNet/geth/chaindata/ancient readonly=false
+INFO [08-19|19:43:40.755] Freezer shutting down 
+INFO [08-19|19:43:40.755] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [08-19|19:43:40.756] Allocated cache and file handles         database=/home/leehm/eth/privatechain/geth_priv/testNet/geth/chaindata cache=512.00MiB handles=524,288
+INFO [08-19|19:43:41.942] Opened ancient database                  database=/home/leehm/eth/privatechain/geth_priv/testNet/geth/chaindata/ancient readonly=false
+INFO [08-19|19:43:41.943] Initialised chain configuration          config="{ChainID: 1337 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: 0, Berlin: 0, London: 0, Engine: clique}"
+INFO [08-19|19:43:41.944] Initialising Ethereum protocol           network=1337 dbversion=8
+INFO [08-19|19:43:41.948] Loaded most recent local header          number=1 hash=f3f5d6..8c64ce td=3 age=9h44m47s
+INFO [08-19|19:43:41.948] Loaded most recent local full block      number=1 hash=f3f5d6..8c64ce td=3 age=9h44m47s
+INFO [08-19|19:43:41.948] Loaded most recent local fast block      number=1 hash=f3f5d6..8c64ce td=3 age=9h44m47s
+INFO [08-19|19:43:41.950] Loaded local transaction journal         transactions=0 dropped=0
+INFO [08-19|19:43:41.950] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-19|19:43:41.951] Gasprice oracle is ignoring threshold set threshold=2
+WARN [08-19|19:43:41.952] Unclean shutdown detected                booted=2021-08-18T23:46:47+0800 age=19h56m54s
+INFO [08-19|19:43:41.952] Starting peer-to-peer node               instance=Geth/v1.10.6-stable-576681f2/linux-amd64/go1.16.4
+WARN [08-19|19:43:41.952] P2P server will be useless, neither dialing nor listening 
+INFO [08-19|19:43:41.961] IPC endpoint opened                      url=/home/leehm/eth/privatechain/geth_priv/testNet/geth.ipc
+INFO [08-19|19:43:41.962] New local node record                    seq=3 id=2933c95feb9ae1fc ip=127.0.0.1 udp=0 tcp=0
+INFO [08-19|19:43:41.962] Transaction pool price threshold updated price=1,000,000,000
+INFO [08-19|19:43:41.962] Transaction pool price threshold updated price=1
+INFO [08-19|19:43:41.962] Etherbase automatically configured       address=0xC2e2b2Fa8441099Dc6F25dDe088ab2dA310864fB
+INFO [08-19|19:43:41.962] Started P2P networking                   self=enode://67c73f71f072e600c6a47cbca4f9c82202810a828d972b957382fd26fc749169128828591ab4ccfa54ab2174b8d666b3c05a50e39fb9e568ef748a31bdda2854@127.0.0.1:0
+INFO [08-19|19:43:41.962] Commit new mining work                   number=2 sealhash=960580..ccba01 uncles=0 txs=0 gas=0 fees=0 elapsed="505.134µs"
+INFO [08-19|19:43:41.963] Sealing paused, waiting for transactions 
+INFO [08-19|19:44:18.202] Your new key was generated               address=0x2d462C986CB5E7126c8b788EEbBc6B85AA232a50
+WARN [08-19|19:44:18.202] Please backup your key file!             path=/home/leehm/eth/privatechain/geth_priv/testNet/keystore/UTC--2021-08-19T11-44-18.093574021Z--2d462c986cb5e7126c8b788eebbc6b85aa232a50
+WARN [08-19|19:44:18.202] Please remember your password! 
+INFO [08-19|19:45:36.008] Setting new local account                address=0xC2e2b2Fa8441099Dc6F25dDe088ab2dA310864fB
+INFO [08-19|19:45:36.008] Submitted transaction                    hash=0x9e3304c04476e28d8357037ba92ce669f4a4cc8b7b39c77c0f15cef27f9d9a00 from=0xC2e2b2Fa8441099Dc6F25dDe088ab2dA310864fB nonce=1 recipient=0x2d462C986CB5E7126c8b788EEbBc6B85AA232a50 value=99,000,000,000,000,000,000
+INFO [08-19|19:45:36.009] Commit new mining work                   number=2 sealhash=ec1cea..85216e uncles=0 txs=1 gas=21000 fees=2.1e-14 elapsed="746.961µs"
+INFO [08-19|19:45:36.010] Successfully sealed new block            number=2 sealhash=ec1cea..85216e hash=6a423d..cb1a0e elapsed=1.409ms
+INFO [08-19|19:45:36.010] 🔨 mined potential block                  number=2 hash=6a423d..cb1a0e
+INFO [08-19|19:45:36.011] Commit new mining work                   number=3 sealhash=c9c7b2..b3898c uncles=0 txs=0 gas=0     fees=0       elapsed="284.53µs"
+INFO [08-19|19:45:36.011] Sealing paused, waiting for transactions 
+WARN [08-19|19:56:14.378] Served eth_sendTransaction               reqid=20 t="880.48µs" err="authentication needed: password or unlock"
+INFO [08-19|19:56:39.319] Setting new local account                address=0x2d462C986CB5E7126c8b788EEbBc6B85AA232a50
+INFO [08-19|19:56:39.319] Submitted contract creation              hash=0x01b1fb55809397d09ef235c42c6764d73b9b3f06e86907792f03f1c8839dd1b8 from=0x2d462C986CB5E7126c8b788EEbBc6B85AA232a50 nonce=0 contract=0x3663651576eA980C8fE67DB4D50C171c9e89C0C5 value=0
+INFO [08-19|19:56:39.329] Commit new mining work                   number=3 sealhash=0a93cc..9f9f23 uncles=0 txs=1 gas=175,227 fees=1.75227e-13 elapsed=9.556ms
+INFO [08-19|19:56:39.330] Successfully sealed new block            number=3 sealhash=0a93cc..9f9f23 hash=b206d3..c8900e elapsed=1.303ms
+INFO [08-19|19:56:39.330] 🔨 mined potential block                  number=3 hash=b206d3..c8900e
+INFO [08-19|19:56:39.331] Commit new mining work                   number=4 sealhash=95736f..8fea6a uncles=0 txs=0 gas=0       fees=0           elapsed="559.038µs"
+INFO [08-19|19:56:39.331] Sealing paused, waiting for transactions 
+INFO [08-19|20:43:41.950] Writing clean trie cache to disk         path=/home/leehm/eth/privatechain/geth_priv/testNet/geth/triecache threads=1
+INFO [08-19|20:43:41.952] Persisted the clean trie cache           path=/home/leehm/eth/privatechain/geth_priv/testNet/geth/triecache elapsed=1.895ms
+INFO [08-19|20:43:41.952] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-19|21:43:41.950] Writing clean trie cache to disk         path=/home/leehm/eth/privatechain/geth_priv/testNet/geth/triecache threads=1
+INFO [08-19|21:43:41.951] Persisted the clean trie cache           path=/home/leehm/eth/privatechain/geth_priv/testNet/geth/triecache elapsed=1.554ms
+INFO [08-19|21:43:41.952] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [08-19|22:20:39.230] Served eth_sendTransaction               reqid=17280 t="488.913µs" err="authentication needed: password or unlock"
+INFO [08-19|22:21:33.012] Submitted contract creation              hash=0x18acc81a58033c7b6ed189eb4a09ce806abcd809bb1be807bff23ba8c91d7463 from=0x2d462C986CB5E7126c8b788EEbBc6B85AA232a50 nonce=1 contract=0x4b84E6C3D7cDB8d0c0Ba8534097176A476E22871 value=0
+INFO [08-19|22:21:33.013] Commit new mining work                   number=4 sealhash=558a20..31c376 uncles=0 txs=1 gas=175,227 fees=1.75227e-13 elapsed=1.026ms
+INFO [08-19|22:21:33.014] Successfully sealed new block            number=4 sealhash=558a20..31c376 hash=3e6314..f1dc0f elapsed=1.232ms
+INFO [08-19|22:21:33.015] 🔨 mined potential block                  number=4 hash=3e6314..f1dc0f
+INFO [08-19|22:21:33.015] Commit new mining work                   number=5 sealhash=76233f..7ce767 uncles=0 txs=0 gas=0       fees=0           elapsed="490.115µs"
+INFO [08-19|22:21:33.015] Sealing paused, waiting for transactions 
+INFO [08-19|22:43:41.950] Writing clean trie cache to disk         path=/home/leehm/eth/privatechain/geth_priv/testNet/geth/triecache threads=1
+INFO [08-19|22:43:41.952] Persisted the clean trie cache           path=/home/leehm/eth/privatechain/geth_priv/testNet/geth/triecache elapsed=1.353ms
+INFO [08-19|22:43:41.952] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-19|23:43:41.950] Writing clean trie cache to disk         path=/home/leehm/eth/privatechain/geth_priv/testNet/geth/triecache threads=1
+INFO [08-19|23:43:41.952] Persisted the clean trie cache           path=/home/leehm/eth/privatechain/geth_priv/testNet/geth/triecache elapsed=1.770ms
+INFO [08-19|23:43:41.952] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [08-19|23:44:07.658] IPC endpoint closed                      url=/home/leehm/eth/privatechain/geth_priv/testNet/geth.ipc
+INFO [08-19|23:44:07.658] Ethereum protocol stopped 
+INFO [08-19|23:44:07.658] Transaction pool stopped 
+INFO [08-19|23:44:07.659] Writing cached state to disk             block=4 hash=3e6314..f1dc0f root=a886e4..e523fc
+INFO [08-19|23:44:07.660] Persisted trie from memory database      nodes=10 size=1.66KiB time="197.233µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=11 livesize=1.57KiB
+INFO [08-19|23:44:07.660] Writing cached state to disk             block=3 hash=b206d3..c8900e root=bdeff2..084058
+INFO [08-19|23:44:07.660] Persisted trie from memory database      nodes=5  size=903.00B time="62.829µs"  gcnodes=0 gcsize=0.00B gctime=0s livenodes=6  livesize=707.00B
+INFO [08-19|23:44:07.660] Writing snapshot state to disk           root=4c40dd..036f19
+INFO [08-19|23:44:07.660] Persisted trie from memory database      nodes=0  size=0.00B   time=761ns       gcnodes=0 gcsize=0.00B gctime=0s livenodes=6  livesize=707.00B
+INFO [08-19|23:44:07.660] Writing clean trie cache to disk         path=/home/leehm/eth/privatechain/geth_priv/testNet/geth/triecache threads=4
+INFO [08-19|23:44:07.662] Persisted the clean trie cache           path=/home/leehm/eth/privatechain/geth_priv/testNet/geth/triecache elapsed=1.113ms
+INFO [08-19|23:44:07.662] Blockchain stopped 
