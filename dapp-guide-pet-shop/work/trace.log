@@ -1,0 +1,177 @@
+Ganache CLI v6.12.2 (ganache-core: 2.13.2)
+
+Available Accounts
+==================
+(0) 0x5927EA0AC8B1Ec43C21a45a0A46827ef832c1718 (100 ETH)
+(1) 0x83E991dB0153A97bEEa87Aa215AFA8D4d8C8Eabd (100 ETH)
+(2) 0x266aE0EAdc71351DFf4C6231629B3C3539D0632c (100 ETH)
+(3) 0xc97fDcfdf9F1779A530C47816F0607B7a138E6fE (100 ETH)
+(4) 0x5444E6bfe746C9B7024e95c6f9c8BE1df1922284 (100 ETH)
+(5) 0xc96323a01e05FE5636AAD6F3ef187752d129EC18 (100 ETH)
+(6) 0xf3aA1D73f36fb778943f6C741b3d4a2D08BdCC93 (100 ETH)
+(7) 0x898Bb118543370681E7f392837f0Cd5432B1fc0C (100 ETH)
+(8) 0x6Dce0c0e3E9B4D0703bb9c62E2b7f351B169CE3d (100 ETH)
+(9) 0x0096eD9b6556D26915595fa7724Be5c4614281d6 (100 ETH)
+
+Private Keys
+==================
+(0) 0x5560d438fa537db20ccfbe99cf2fd22a425845236a3e6c6f54382e3973bd7bb9
+(1) 0x98f1862a58814c3acc6ec7f092950f84ab90dd03f6010c027f1a9ed50f456733
+(2) 0x243bff6cafb8db1e6c4124f1e54f5a6645315ef9c724e954ef0e9a5e9106f5ba
+(3) 0xe5910078882a34c4922e722e0c1b0f5e5e75ce46c33721b50d3f8e1481ebfc85
+(4) 0xf7807c35094e7e68abd7a38945a08dddb059873d1df417414889d94d4cb7e78d
+(5) 0x538e3b8f54aaa33f3d75cddbe018c574e95a5b7b2fb07e0a71b8926541810133
+(6) 0x14c9c7aa01662cdfdcf2b4745034fe0af31a70507e3cdedd5bbf99d15a1c0a3f
+(7) 0x4ae06527fd0f88e163102c005ead1e3719c827973cf92649f0e5050f2a69c86e
+(8) 0x22c248c6553409f55bf5bf5b7bbf3f0ca536d847cb7769a6ecfb79c4a670be93
+(9) 0x13ebf1fedb9f6912d5aeecdde004846ccd674302ea2c654c04421247fa408362
+
+HD Wallet
+==================
+Mnemonic:      immense camp abuse tortoise velvet scout upgrade tunnel steel laundry cloth welcome
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Gas Price
+==================
+20000000000
+
+Gas Limit
+==================
+6721975
+
+Call Gas Limit
+==================
+9007199254740991
+
+Listening on 127.0.0.1:8545
+eth_blockNumber
+net_version
+eth_accounts
+eth_getBlockByNumber
+eth_accounts
+net_version
+eth_getBlockByNumber
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_estimateGas
+net_version
+eth_blockNumber
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x40967f6d9c78967dbb36d8989aa7a3b1ee902944b71b3c6adf4ec8228bc9466f
+  Contract created: 0xda9c41d5a462d40dd36c1bb217b8ada7ec61ca0c
+  Gas usage: 191943
+  Block Number: 1
+  Block Time: Sun Aug 22 2021 22:37:21 GMT+0800 (中国标准时间)
+
+eth_getTransactionReceipt
+eth_getCode
+eth_getTransactionByHash
+eth_getBlockByNumber
+eth_getBalance
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x9273a4e7a2c628ab9de6c8a4f16bbd2f9baa0f8a8d7721a2a1c0a2d41864359d
+  Gas usage: 42338
+  Block Number: 2
+  Block Time: Sun Aug 22 2021 22:37:21 GMT+0800 (中国标准时间)
+
+eth_getTransactionReceipt
+eth_getBlockByNumber
+eth_accounts
+net_version
+eth_getBlockByNumber
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_estimateGas
+net_version
+eth_blockNumber
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0xa932a9176c4a6fa8631a4504402736ab6c66b41e24c4dabe0b31f6aff2b381ab
+  Contract created: 0x06f2fec5f4217bb0dfde85a2ce7bbd0de5bb9d2b
+  Gas usage: 180961
+  Block Number: 3
+  Block Time: Sun Aug 22 2021 22:37:21 GMT+0800 (中国标准时间)
+
+eth_getTransactionReceipt
+eth_getCode
+eth_getTransactionByHash
+eth_getBlockByNumber
+eth_getBalance
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_gasPrice
+eth_sendTransaction
+
+  Transaction: 0x3220ba33a5037c552f6fc5ead2247f3a3bc2ca9c48b54c1de4df86d495e029ef
+  Gas usage: 27338
+  Block Number: 4
+  Block Time: Sun Aug 22 2021 22:37:21 GMT+0800 (中国标准时间)
+
+eth_getTransactionReceipt
+eth_blockNumber
+net_version
+eth_accounts
+eth_blockNumber
+net_version
+eth_accounts
+Ganache CLI v6.12.2 (ganache-core: 2.13.2)
+
+Available Accounts
+==================
+(0) 0x6c894657120A81B887B4bFbdbfaC46677BaC9463 (100 ETH)
+(1) 0x6F4aeb1C5fFF8a4DE506e62b47e4be1749Ace016 (100 ETH)
+(2) 0xe516CB14F17Eed3BEc1c14d631824f89531dF90d (100 ETH)
+(3) 0x7b0f63904C64bBAD893a50134C8a33acaE0ac444 (100 ETH)
+(4) 0x970C2A2C5af1404dAf42F0DF3C9FE67BAB1EA700 (100 ETH)
+(5) 0xB6e76D247Fbe8cA5Bae35f8e77727d534130d5cD (100 ETH)
+(6) 0x9BA974Fd882CA49941a2524E0d2E7814fBa1dBF6 (100 ETH)
+(7) 0x73B792C9C0410a178dB9D74d2185867062BC9E17 (100 ETH)
+(8) 0xA9562f6Bf6125D73E4A7Cdb4F4895Bdf0fD1d68B (100 ETH)
+(9) 0x12bCAAbf138EA877F1d909409975e091DEca9a7a (100 ETH)
+
+Private Keys
+==================
+(0) 0x4e11f1ca591b05a5b7ca7184b845d762b0c1dc88681439804cd5a41ef2b67a0e
+(1) 0x5dc93ff15cc8b6481be08e5da8a9c4635e6c57109dbfed14c24c3f926392fa29
+(2) 0xc5d6dd604171a22abad1e7a56d0a847a1ae335422e4751af31b133d297aad5f9
+(3) 0xf25eab9da2324c8f20364ac50439f97b11033bd600d86070871f7e3ebe3587f0
+(4) 0x66bb95e852d328454fd6c750710f7a29318d4c437cca0f9d855f74c76082a140
+(5) 0x1e9dfaf8242f9b60c41b094cf4d66a1e0f01f6d2a3b2b67b35312648e359a8bf
+(6) 0xe4e28c026aec4ee96aa87f8d815bd1cdc657c5cd27eef9434fcc07fce70aa119
+(7) 0x9532f456724d33eb1eb9c43035340cb403dca82d235e398e74830a768f6534a4
+(8) 0xb43e5bdd6b01bee6b61ba1a9336df7b2ce13c83f61c7e0b4e136ece4d63fa258
+(9) 0xb512ca8e0f1eede49a587e926e2aadf8471bb4138d34e45ddbaf6fc519bf936b
+
+HD Wallet
+==================
+Mnemonic:      math lazy ten poet social plastic pigeon midnight fashion method rug skirt
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Gas Price
+==================
+20000000000
+
+Gas Limit
+==================
+6721975
+
+Call Gas Limit
+==================
+9007199254740991
+
+Listening on 127.0.0.1:8545
